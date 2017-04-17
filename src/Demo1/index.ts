@@ -6,7 +6,7 @@ import { injectable, inject } from "inversify";
 import {glueInstance as glue} from "./model/glue";
 
 
-let s = glue.container.get<someOtherService>("aa");
+let s = glue.container.get<someOtherService>("bb");
 
 var g = glue.id;
 var result = s.doSomething();
